@@ -351,9 +351,8 @@ const InvoiceContain = () => {
       {/* <PrintComponent /> */}
       <Container fluid={true}>
         <Fade top distance='2%' duration={700}>
-          <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
+          {/* <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
             <div className='buttons d-flex'>
-              {/* <button onClick={copyTable}>Copy</button> */}
               <button onClick={downloadTableAsCSV}>CSV</button>
               <button onClick={downloadTableAsCSV}>Excel</button>
               <button onClick={generatePDF}>PDF</button>
@@ -371,23 +370,8 @@ const InvoiceContain = () => {
                 onChange={(e) => setSearchFromUserName(e.target.value)}
               />
             </div>
-            {/* <div style={{ display: 'flex', alignItems: 'center' }}>
-              Search by Status:-
-              <Input
-                type='select'
-                style={{ width: '150px', marginLeft: '10px' }}
-                value={selectedStatus}
-                onChange={(e) => setSelectedStatus(e.target.value)}
-              >
-                <option value=''>Main </option>
-                {statusOptions.map((status) => (
-                  <option key={status} value={status}>
-                    {status}
-                  </option>
-                ))}
-              </Input>
-            </div> */}
-          </div>
+          
+          </div> */}
           <section>
 
             {/* const [refferal , setRefferal] = useState(false)
@@ -459,12 +443,12 @@ const InvoiceContain = () => {
               <div className='card-body'>
                 <div className='card-title' style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <h4 className='mb-0 '>My Team Income</h4>
-                  <div className='date-inputs' style={{ display: 'flex', gap: '10px', alignItems: 'center', color: '#96979A' }}>
+                  {/* <div className='date-inputs' style={{ display: 'flex', gap: '10px', alignItems: 'center', color: '#96979A' }}>
                     from:-
                     <Input type='date' onChange={(e) => setFromDate(e.target.value)} />
                     To:-
                     <Input type='date' onChange={(e) => setToDate(e.target.value)} />
-                  </div>
+                  </div> */}
                 </div>
                 <hr />
                 <div className='table-responsive'>

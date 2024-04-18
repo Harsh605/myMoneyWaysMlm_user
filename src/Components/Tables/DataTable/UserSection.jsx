@@ -186,7 +186,7 @@ const UserSection = () => {
                       <h4 className="mb-0">All User</h4>
                     </div>
 
-                    <div
+                    {/* <div
                       className="search-and-button d-flex mt-4"
                       style={{ justifyContent: "space-between" }}
                     >
@@ -205,35 +205,12 @@ const UserSection = () => {
                           onChange={(e) => setSearchTerm(e.target.value)}
                         />
                       </div>
-                    </div>
+                    </div> */}
                     <hr />
                     <div className="table-responsive">
                       <div className="card">
                         <div className="cards-body">
-                          <div
-                            style={{
-                              display: "flex",
-                              justifyContent: "space-between",
-                            }}
-                          >
-                            <div className="card-title">
-                              <h4 className="mb-0"> Withdrawal History</h4>
-                            </div>
-                            <select
-                              value={selectedFilter}
-                              onChange={(e) =>
-                                setSelectedFilter(e.target.value)
-                              }
-                              style={{ borderRadius: "5px" }}
-                              name=""
-                              id=""
-                            >
-                              <option value="">Status</option>
-                              <option value="1">Approved</option>
-                              <option value="0">Pending</option>
-                              <option value="2">Rejected</option>
-                            </select>
-                          </div>
+                         
                           <hr />
                           <div className="table-responsive">
                             <table

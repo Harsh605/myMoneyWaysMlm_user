@@ -255,7 +255,7 @@ console.log("filteredData",filteredData)
       <Breadcrumbs mainTitle='All User' parent='UserSection' title='All User' />
       <Container fluid={true}>
         <Fade top distance='2%' duration={700}>
-          <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
+          {/* <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
             <div className='buttons d-flex'>
               <button onClick={copyTable}>Copy</button>
               <button onClick={downloadTableAsCSV}>CSV</button>
@@ -291,19 +291,19 @@ console.log("filteredData",filteredData)
                 ))}
               </Input>
             </div>
-          </div>
+          </div> */}
           <hr />
           <div className='table-responsive'>
             <div className='card'>
               <div className='card-body'>
                 <div className='card-title' style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <h4 className='mb-0'>All User</h4>
-                  <div className='date-inputs' style={{ display: 'flex', gap: '10px', alignItems: 'center', color: '#96979A' }}>
+                  {/* <div className='date-inputs' style={{ display: 'flex', gap: '10px', alignItems: 'center', color: '#96979A' }}>
                     from:-
                     <Input type='date' onChange={(e) => setStartDate(e.target.value)} />
                     To:-
                     <Input type='date' onChange={(e) => setEndDate(e.target.value)} />
-                  </div>
+                  </div> */}
                 </div>
                 <hr />
                 <div className='table-responsive'>

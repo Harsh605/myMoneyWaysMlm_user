@@ -107,9 +107,8 @@ const Approved = () => {
         <>
             <Fade top distance='2%' duration={700}>
 
-                {/*  */}
-                {/* <div></div> */}
-                <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
+               
+                {/* <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
                     <div className='buttons'>
                         <button onClick={copyTable}>Copy</button>
                         <button onClick={downloadTableAsCSV}>CSV</button>
@@ -123,8 +122,7 @@ const Approved = () => {
                         <input type="text" placeholder='enter Date' value={searchTerm} style={{border:'1px solid #C7C8C9'}}
                             onChange={(e) => setSearchTerm(e.target.value)} />
                     </div>
-                </div>
-                {/*  */}
+                </div> */}
 
 
                 <hr />

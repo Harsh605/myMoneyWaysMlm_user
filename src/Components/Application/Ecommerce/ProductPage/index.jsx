@@ -133,7 +133,7 @@ const ProductPageContain = () => {
       <Breadcrumbs parent='TransferHistory' title='Transfer History' mainTitle='Transfer History' />
       <Container fluid={true}>
         <Fade top distance='2%' duration={700}>
-          <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
+          {/* <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
             <div className='buttons'>
 
               <button onClick={copyTable}>Copy</button>
@@ -142,16 +142,7 @@ const ProductPageContain = () => {
               <button onClick={generatePDF}>PDF</button>
               <button onClick={handlePrint}>Print</button>
             </div>
-            {/* <div style={{ display: 'flex', alignItems: 'center' }}>
-              Search:-
-              <Input
-                type="text"
-                style={{ width: '200px' }}
-                placeholder="Enter ID,User Name"
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-              />
-            </div> */}
+            
             <div style={{ display: 'flex', alignItems: 'center' }}>
               Search From User Name:-
               <Input
@@ -162,19 +153,19 @@ const ProductPageContain = () => {
                 onChange={(e) => setSearchFromUserName(e.target.value)}
               />
             </div>
-          </div>
+          </div> */}
           <hr />
           <div className="table-responsive">
             <div className="card">
               <div className="card-body">
                 <div className="card-title" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                   <h4 className="mb-0">Transfer History</h4>
-                  <div className='date-inputs' style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
+                  {/* <div className='date-inputs' style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
                     from:-
                     <Input type="date" onChange={(e) => setFromDate(e.target.value)} />
                     To:-
                     <Input type="date" onChange={(e) => setToDate(e.target.value)} />
-                  </div>
+                  </div> */}
                 </div>
                 <hr />
                 <div className="table-responsive">

@@ -135,13 +135,11 @@ const UserDataSection = () => {
         <>
             <Fade top distance='2%' duration={700}>
                 {/* <div></div> */}
-                <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
+                {/* <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'space-between' }}>
                     <div className='buttons'>
-                        {/* <button onClick={copyTable}>Copy</button> */}
                         <button onClick={downloadTableAsCSV}>CSV</button>
                         <button onClick={downloadTableAsCSV}>Excel</button>
                         <button onClick={generatePDF}>PDF</button>
-                        {/* <button onClick={handlePrint}>Print</button> */}
 
                     </div>
 
@@ -150,8 +148,7 @@ const UserDataSection = () => {
                         <input type="text" placeholder='enter Date' value={searchTerm} style={{ border: '1px solid #C7C8C9' }}
                             onChange={(e) => setSearchTerm(e.target.value)} />
                     </div>
-                </div>
-                {/*  */}
+                </div> */}
 
 
                 <hr />
@@ -164,12 +161,12 @@ const UserDataSection = () => {
 
 
                                 <h4 className="mb-0">All Deposite</h4>
-                                <div style={{ display: 'flex', gap: '10px' }}>
+                                {/* <div style={{ display: 'flex', gap: '10px' }}>
                                     from:-
                                     <input type="date" onChange={(e) => setFromDate(e.target.value)} />
                                     To:-
                                     <input type="date" onChange={(e) => setToDate(e.target.value)} />
-                                </div>
+                                </div> */}
                             </div>
                             <hr />
                             <div className="table-responsive">

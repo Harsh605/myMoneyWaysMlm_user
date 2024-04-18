@@ -161,29 +161,16 @@ useEffect(()=>{        //new addition
           <Fade top distance='2%' duration={700}>
 
             <div className='upgrade-package-container' >
-              <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'flex-end', marginRight:'40px' }}>
+              {/* <div className='search-and-button d-flex mt-4' style={{ justifyContent: 'flex-end', marginRight:'40px' }}>
                 <div className='buttons'>
-                  {/* <button onClick={copyTable}>Copy</button> */}
                   <button onClick={downloadTableAsCSV}>CSV</button>
                   <button onClick={downloadTableAsCSV}>Excel</button>
                   <button onClick={generatePDF}>PDF</button>
-                  {/* <button onClick={handlePrint}>Print</button> */}
 
                 </div>
 
-                {/* <div style={{ display: 'flex', alignItems: 'center' }}>
-                  Search:-
-                 
-                  <Input
-                    type="text"
-                    style={{ width: '200px' }}
-                    placeholder="Enter ID,User Name"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                  />
-                </div> */}
-              </div>
-              {/*  */}
+                
+              </div> */}
 
 
               <hr />
@@ -196,7 +183,7 @@ useEffect(()=>{        //new addition
 
 
                       <h4 className="mb-0"> History</h4>
-                      <div className='date-inputs' style={{ display: 'flex', gap: '10px', alignItems: 'center', color: '#96979A' }}>
+                      {/* <div className='date-inputs' style={{ display: 'flex', gap: '10px', alignItems: 'center', color: '#96979A' }}>
                         from:-
                         <Input
                           type="date"
@@ -210,7 +197,7 @@ useEffect(()=>{        //new addition
 
                           onChange={(e) => setToDate(e.target.value)}
                         />
-                      </div>
+                      </div> */}
                     </div>
                     <hr />
                     <div className="table-responsive">
